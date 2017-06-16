@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-Mx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+  <link rel="stylesheet" href="base.css" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="row">
+    <div class="col-xs-6
+                col-sm-8
+                col-md-6
+                col-lg-3 verificar " >
+        <div class="colores box parrafo" style="border:solid 2px black;">
+          <p>hola</p>
+          <ul>
+            <li><a href="#">lo</a></li>
+            <li>que</li>
+            <li>sea</li>
+          </ul>
+        </div>
+
+    </div>
+    <div class="col-xs-6
+                col-sm-8
+                col-md-6
+                col-lg-3 borrador" id="especial">
+        <div class="box" style="border:solid 2px black;" >1Responsive</div>
+
+    </div>
+    <div class="col-xs-6
+                col-sm-8
+                col-md-6
+                col-lg-3" >
+        <div class="box" style="border:solid 2px black;">2Responsive</div>
+
+    </div>
+    <div class="col-xs-6
+                col-sm-8
+                col-md-6
+                col-lg-3" >
+        <div class="box" style="border:solid 2px black;">3Responsive</div>
+
+    </div>
+  </div>
+
+  <div class="botton" >
+    <a href="#" id="boton">mostrar1</a>
+  </div>
+  <aside class="">
+
+  </aside>
+  <footer></footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+  </script>
+  <script type="text/javascript">
+    'use strict';
+    $(document).ready(function(e) {
+      $('#boton').on('click', function(e){
+          //$('#especial').css('display', 'block');
+          $('#especial').toggleClass("borrador");
+          //$('#especial').show();
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  color: green;
+  background-color: white;
+}
+.prueba {
+  background-color: red;
+}
+.verificar {
+  border: solid blue 2px;
+}
+
+.colores {
+
+  color: purple;
+}
+.colores.parrafo {
+ text-align: center;
+}
+
+.colores > p {
+  color: white;
+}
+
+.colores > ul > li {
+  text-decoration: none;
+  border: solid green 1px;
+}
+.colores > ul > li > a {
+  font-weight: bold;
+}
+.borrador {
+  display: none;
+}
